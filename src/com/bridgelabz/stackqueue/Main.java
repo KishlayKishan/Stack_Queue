@@ -1,4 +1,4 @@
-/*@Purpose::Ability to peak and pop from the Stack till it is empty 56 ->30 ->70
+/*@Purpose::Ability to create a Queue of 56->30->70
  *@File::Stack_Queue
  *@Author::Kishlay Kishan
  *@Date::06-April-2022
@@ -7,16 +7,12 @@
 package com.bridgelabz.stackqueue;
 
 public class Main {
-
 	public static void main(String[] args) {
-		System.out.println("Welcome to Stack and queue");
-		Stack stack = new Stack();
-		stack.push(70);
-		stack.push(30);
-		stack.push(56);
-		stack.displayStack();
-		stack.pop();
-		stack.displayStack();
+		System.out.println("Welcome to Stack and Queue");
+		Queue queue = new Queue();
+		queue.enque(56);
+		queue.enque(30);
+		queue.enque(70);
 
 	}
 }
