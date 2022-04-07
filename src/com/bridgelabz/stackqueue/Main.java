@@ -1,4 +1,4 @@
-/*@Purpose::Ability to create a Stack of 56->30->70
+/*@Purpose::Ability to peak and pop from the Stack till it is empty 56 ->30 ->70
  *@File::Stack_Queue
  *@Author::Kishlay Kishan
  *@Date::06-April-2022
@@ -14,6 +14,8 @@ public class Main {
 		stack.push(70);
 		stack.push(30);
 		stack.push(56);
+		stack.displayStack();
+		stack.pop();
 		stack.displayStack();
 
 	}
