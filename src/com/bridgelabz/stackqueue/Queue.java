@@ -1,5 +1,8 @@
 package com.bridgelabz.stackqueue;
 
+/*
+ * Queue Logic
+ */
 public class Queue {
 	LinkedList linkedList = new LinkedList();
 
