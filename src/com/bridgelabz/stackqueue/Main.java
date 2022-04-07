@@ -1,4 +1,4 @@
-/*@Purpose::Ability to create a Queue of 56->30->70
+/*@Purpose::Ability to create a Queue and Deque
  *@File::Stack_Queue
  *@Author::Kishlay Kishan
  *@Date::06-April-2022
@@ -13,6 +13,8 @@ public class Main {
 		queue.enque(56);
 		queue.enque(30);
 		queue.enque(70);
-
+		queue.deque();
+		queue.deque();
+		queue.deque();
 	}
 }
